@@ -2,7 +2,7 @@ Unity 6, Universal Render Pipeline
 
 1. Sending texture from TouchDesigner via Syphon Spout Out TOP (SpoutSender.toe)
 2. Receiving texture as RenderTexture in Unity via KlakSpout -> SpoutReceiver.cs
-3. Targeting Spout Receiver on VFX Graph with particles that are spawned with coresesponding positions and colors.
+3. Targeting Spout Receiver on VFX Graph with particles that are spawned with coresponding positions and colors.
 
 This is simplest implementation that can be extended in a lot of ways in both sides in Touchdesigner as a source and Unity's VFX Graph as a final rendering.
 
