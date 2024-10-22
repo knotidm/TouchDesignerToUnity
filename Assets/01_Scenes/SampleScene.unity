@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -285,7 +285,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -482,10 +482,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpoutReceiverVFX2
       objectReference: {fileID: 0}
+    - target: {fileID: 3151949621235450693, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: dd94badab4abf604eb4705fe3f097016, type: 2}
     - target: {fileID: 4393812517090398885, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 6860859241427111799, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956236585663492447, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -602,10 +614,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpoutReceiverVFX1
       objectReference: {fileID: 0}
+    - target: {fileID: 3151949621235450693, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: dd94badab4abf604eb4705fe3f097016, type: 2}
     - target: {fileID: 4393812517090398885, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 6860859241427111799, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6956236585663492447, guid: 708cb044b06937a44b03c4fd7110b14a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
